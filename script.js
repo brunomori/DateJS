@@ -9,7 +9,7 @@ function carregar(){
     var min= data.getMinutes()
     var ano= data.getFullYear()
 
-    msg.innerHTML = ` Hoje é dia ${dia} do ${mes} de ${ano} e agora são: ${hora}:${min}`
+    msg.innerHTML = ` Hoje é dia <strong>${dia}</strong> do <strong>${mes}</strong> de <strong>${ano}</strong> e agora são: <strong>${hora}:${min}</strong>`
 
     if (hora >=0 && hora <12){
         img.src='img/manhaa.jpg'
