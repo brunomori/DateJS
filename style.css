@@ -1,0 +1,53 @@
+body{
+background-color: rgb(70, 142, 236);
+font-family: Arial, Helvetica, sans-serif;
+font-size: larger;
+}
+
+header{
+    color: white;
+    text-align: center;
+
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background-color: antiquewhite;
+    
+}
+div {
+    text-align: center;
+    padding: 5px;
+}
+
+footer{
+text-align: center;
+font-style: italic;
+
+}
+
+footer a {
+    color: white;
+}
+
+img{
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.6);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    border: 1px solid #ffffff;
+    
+}
+
