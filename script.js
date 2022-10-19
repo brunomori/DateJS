@@ -14,15 +14,16 @@ function carregar(){
     if (hora >=0 && hora <12){
         img.src='img/manhaa.jpg'
         boa.innerHTML =`Tenha um otimo dia!`
-        document.body.style.background='#A4D8FC'
+        // document.body.style.background='#A4D8FC'
     } else if (hora >=12 && hora <=18 ) {
         img.src='img/tardee.jpg'
         boa.innerHTML ='Tenha uma otima tarde!'
-        document.body.style.background='#FFB784'
+        // document.body.style.background='#FFB784'
     }
     else{
         img.src='img/noitee.jpg'
-        document.body.style.background = '#8568A1'
+        // document.body.style.background = '#8568A1'
         boa.innerHTML ='Tenha uma otima Noite!'
     }
 }
+
