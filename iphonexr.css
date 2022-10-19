@@ -1,0 +1,12 @@
+@media screen and (max-width:414px){
+    #img {
+        width: 240px;
+    }
+
+    .section{
+        padding: 7vw;
+        width: 35vh;
+        margin-left: -47px;
+       
+    }
+}

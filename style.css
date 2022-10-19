@@ -12,19 +12,20 @@ header{
 
 }
 
+.corpo{
+    width: 100vw;
+}
+
 section{
     background: white;
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
+    border-radius: 10px; 
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     background-color: antiquewhite;
     
 }
 div {
     text-align: center;
-    padding: 65px;
+    padding: 70px;
   
 }
 
@@ -41,20 +42,18 @@ footer a {
 footer a:hover{
     color: aquamarine;
 }
-.container{
-    margin-top: 200px;
-}
 
 
 img{
     transition: all 0.5s;
     cursor: pointer;
-    margin-left: 380px;
     border-radius: 10px;
+
+    
 }
 
 header h1{
-    transform: translateY(150px);
+    transform: translateY(60px);
 }
 
 img:hover{

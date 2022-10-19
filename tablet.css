@@ -1,0 +1,17 @@
+@media screen and (max-width:414px) and (max-width: 1650px)
+{
+    #img {
+        width: 375px;
+    }
+
+    .corpo{   
+    padding-left: 94px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+
+    }
+
+    .header{
+        height: 31px
+    }
+}
