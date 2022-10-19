@@ -38,6 +38,9 @@ footer a {
     color: white;
 }
 
+footer a:hover{
+    color: aquamarine;
+}
 .container{
     margin-top: 200px;
 }
