@@ -38,11 +38,20 @@ footer a {
     color: white;
 }
 
+.container{
+    margin-top: 200px;
+}
+
+
 img{
     transition: all 0.5s;
     cursor: pointer;
-    margin-left: 70px;
+    margin-left: 380px;
     border-radius: 10px;
+}
+
+header h1{
+    transform: translateY(150px);
 }
 
 img:hover{
